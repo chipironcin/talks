@@ -1,0 +1,20 @@
+To run directly:
+  Remove the button
+  Remove the run function
+  await go.run(inst)
+
+Calling functions
+  <button onClick="add(2,3);" id="addButton">Add</button>
+  <button onClick="subtract(10,3);" id="subtractButton">Subtract</button>
+
+Reading from DOM
+  <input type="text" id="value1"/>
+  <input type="text" id="value2"/>
+  <button onClick="add('value1', 'value2');" id="addButton">Add</button>
+
+Writing to DOM
+  <input type="text" id="value1"/>
+  <input type="text" id="value2"/>
+  <button onClick="add('value1', 'value2', 'result');" id="addButton">Add</button>
+  <button onClick="subtract('value1', 'value2', 'result');" id="subtractButton">Subtract</button>
+  <input type="text" id="result">
